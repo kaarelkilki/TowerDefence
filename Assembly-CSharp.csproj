@@ -56,9 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CubeEditor.cs" />
     <Compile Include="Assets\EnemyMovement.cs" />
+    <Compile Include="Assets\CubeEditor.cs" />
     <Compile Include="Assets\Waypoint.cs" />
+    <Compile Include="Assets\Pathfinder.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
