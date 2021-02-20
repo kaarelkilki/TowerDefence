@@ -7,6 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(Waypoint))]
 public class CubeEditor : MonoBehaviour
 {
+
     Vector3 gridPos;
     Waypoint waypoint;
 
