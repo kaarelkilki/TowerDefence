@@ -8,11 +8,27 @@ public class Pathfinder : MonoBehaviour
     [SerializeField] Waypoint startWaypoint, endWaypoint;
 
     Dictionary<Vector2Int, Waypoint> grid = new Dictionary<Vector2Int, Waypoint>();
+    Vector2Int[] directions = {
+        Vector2Int.up,
+        Vector2Int.right,
+        Vector2Int.down,
+        Vector2Int.left
+    };
+
     // Start is called before the first frame update
     void Start()
     {
         LoadBlocks();
         ColorStartAndEnd();
+        ExploreNeighbours();
+    }
+
+    private void ExploreNeighbours()
+    {
+        foreach (Vector2Int direction in directions)
+        {
+            print(direction);
+        }
     }
 
     private void ColorStartAndEnd()
