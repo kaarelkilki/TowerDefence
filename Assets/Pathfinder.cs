@@ -27,7 +27,16 @@ public class Pathfinder : MonoBehaviour
     {
         foreach (Vector2Int direction in directions)
         {
-            print(direction);
+            Vector2Int explorationCoordinates = startWaypoint.GetGridPos() + direction;
+            try
+            {
+                grid[explorationCoordinates].SetTopColor(Color.blue);
+            }
+            catch
+            {
+
+            }
+            
         }
     }
 
