@@ -3715,7 +3715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be876f9695fd79d4fb60bd1d4fee5a6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweenSpawns: 2
+  secondsBetweenSpawns: 4
   enemyPrefab: {fileID: 1210368432998450048, guid: 478255886a9566348a2cf621e390c697, type: 3}
 --- !u!1001 &1799275630
 PrefabInstance:
@@ -4698,7 +4698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3507039982277843240, guid: 478255886a9566348a2cf621e390c697, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3507039982277843240, guid: 478255886a9566348a2cf621e390c697, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4735,6 +4735,10 @@ PrefabInstance:
     - target: {fileID: 4139982435136598745, guid: 478255886a9566348a2cf621e390c697, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139982435136598745, guid: 478255886a9566348a2cf621e390c697, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 478255886a9566348a2cf621e390c697, type: 3}
